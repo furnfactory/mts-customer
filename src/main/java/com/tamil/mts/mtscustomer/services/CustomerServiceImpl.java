@@ -1,0 +1,26 @@
+/*
+ * Created on 05-Oct-2020
+ * Created by murugan
+ * Copyright � 2020 MTS [murugan425]. All Rights Reserved.
+ */
+package com.tamil.mts.mtscustomer.services;
+
+import java.util.UUID;
+
+import org.springframework.stereotype.Service;
+
+import com.tamil.mts.mtscustomer.web.model.CustomerDto;
+
+/**
+ * @author murugan
+ *
+ */
+@Service
+public class CustomerServiceImpl implements CustomerService {
+
+	@Override
+	public CustomerDto getCustomerById(UUID customerId) {
+		return CustomerDto.builder().id(UUID.randomUUID()).name("Senthamizh").age(28).build();
+	}
+
+}
