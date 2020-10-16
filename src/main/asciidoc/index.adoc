@@ -1,0 +1,49 @@
+= MTS Customer Service
+Murugan Nagarajan [@murugan425];
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+
+Customer service application configured with Spring REST Docs.
+
+`CustomerControllerTest` makes a call to a very simple service and produces three documentation snippets.
+
+GET CUSTOMER
+
+One showing how to make a request using cURL:
+
+include::{snippets}/api/v1/customer/get/curl-request.adoc[]
+
+One showing the HTTP request:
+
+include::{snippets}/api/v1/customer/get/http-request.adoc[]
+
+One showing the HTTP response:
+
+include::{snippets}/api/v1/customer/get/http-response.adoc[]
+
+Response Body:
+include::{snippets}/api/v1/customer/get/response-body.adoc[]
+
+Response Fields:
+include::{snippets}/api/v1/customer/get/response-fields.adoc[]
+
+CREATE NEW CUSTOMER
+
+One showing how to make a request using cURL:
+
+include::{snippets}/api/v1/customer/post/curl-request.adoc[]
+
+One showing the HTTP request:
+
+include::{snippets}/api/v1/customer/post/http-request.adoc[]
+
+Request Fields:
+include::{snippets}/api/v1/customer/post/request-fields.adoc[]
+
+One showing the HTTP response:
+
+include::{snippets}/api/v1/customer/post/http-response.adoc[]
+
+Response Body:
+include::{snippets}/api/v1/customer/post/response-body.adoc[]
